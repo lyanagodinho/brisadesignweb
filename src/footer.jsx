@@ -5,7 +5,7 @@ export default function Footer() {
         
         {/* LOGO + COPYRIGHT */}
         <div className="flex items-center gap-4">
-          <img src="/bdmediumwhite.png" alt="Logotipo Brisa Design" className="w-20 sm:w-24" />
+          <img src="/brisadesignweb/bdmediumwhite.png" alt="Logotipo Brisa Design" className="w-20 sm:w-24" />
           <p className="text-sm text-white/80">
             © 2025 Brisa Design. Todos os direitos reservados.
             <br className="hidden sm:block" />

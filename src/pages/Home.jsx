@@ -51,19 +51,7 @@ export default function Home() {
       <div className="max-w-xl text-left mt-24 sm:mt-0 pt-32 sm:pt-59">
         <h1 className="text-3xl sm:text-5xl font-transforma leading-tight text-left">
           <span className="text-white block mb-2">A SUA MARCA.</span>
-          <span className="relative inline-block text-[#BDE128] px-6 py-4 mb-2 align-middle">
-            <span
-              className="absolute inset-0 z-0"
-              style={{
-                backgroundImage: "/brisadesignweb/13.svg')",
-                backgroundSize: "auto 100%",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "left center",
-                opacity: 0.4,
-              }}
-            ></span>
-            <span className="relative z-10">A NOSSA ARTE.</span>
-          </span>
+          <span className="text-[#BDE128] block mb-2">A NOSSA ARTE.</span>
           <span className="text-white block">O SEU SUCESSO.</span>
         </h1>
       </div>
