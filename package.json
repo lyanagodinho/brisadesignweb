@@ -10,11 +10,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-    
   },
-
   "homepage": "https://lyanagodinho.github.io/brisadesignweb",
-
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
