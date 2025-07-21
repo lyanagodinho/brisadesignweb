@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <header id="Home" className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/leiriapb.jpg')" }}>
+    <header id="Home" className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/brisadesignweb/leiriapb.jpg')" }}>
       
       {/* ELIPSE 6 */}
       <img
-        src="/elipse6.png"
+        src="/brisadesignweb/elipse6.png"
         alt=""
         className="absolute bottom-0 left-0 w-64 sm:w-80 opacity-70 pointer-events-none"
       />
@@ -12,7 +12,7 @@ export default function Home() {
       {/* ELIPSE 7 */}
       <div className="absolute top-[9] right-[-550px] w-[70vw] pointer-events-none"> 
         <img
-          src="/elipse7.png"
+          src="/brisadesignweb/elipse7.png"
           alt=""
           className="w-full opacity-70"
         />
@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* LOGO NO CANTO SUPERIOR ESQUERDO */}
       <div className="absolute top-6 left-6 sm:left-16 z-50">
-        <img src="/bdmediumwhite.png" alt="Logotipo" className="w-24 sm:w-32 h-auto" />
+        <img src="/brisadesignweb/bdmediumwhite.png" alt="Logotipo" className="w-24 sm:w-32 h-auto" />
       </div>
 
       {/* NAVBAR CENTRAL (DESKTOP) */}
@@ -51,11 +51,11 @@ export default function Home() {
       <div className="max-w-xl text-left mt-24 sm:mt-0 pt-32 sm:pt-59">
         <h1 className="text-3xl sm:text-5xl font-transforma leading-tight text-left">
           <span className="text-white block mb-2">A SUA MARCA.</span>
-          <span className="relative inline-block text-[#BDE128] px-6 py-4 mb-2 align-middle block">
+          <span className="relative inline-block text-[#BDE128] px-6 py-4 mb-2 align-middle">
             <span
               className="absolute inset-0 z-0"
               style={{
-                backgroundImage: "url('/13.svg')",
+                backgroundImage: "/brisadesignweb/13.svg')",
                 backgroundSize: "auto 100%",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "left center",

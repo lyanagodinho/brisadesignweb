@@ -29,7 +29,7 @@ export default function Sobre() {
         {/* Logotipo */}
         <div className="md:w-1/3 flex justify-center">
           <img
-            src="/bdlogo.png"
+            src="/brisadesignweb/bdlogo.png"
             alt="Logotipo Brisa Design"
             className="w-64 h-auto"
           />

@@ -55,7 +55,7 @@ export default function App() {
       {/* BOTÃO VOLTAR AO TOPO */}
       {showTopButton && (
         <a
-          href="Home"
+          href="#Home"
           className="fixed bottom-6 right-6 bg-white/30 text-black px-4 py-2 rounded-full shadow-lg hover:bg-[#BDE128] transition-colors duration-300 text-sm font-semibold z-50 backdrop-blur-sm"
         >
           ↑ Voltar ao topo

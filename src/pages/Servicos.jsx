@@ -48,12 +48,12 @@ export default function Servicos() {
         {/* Coluna de Imagens */}
         <div className="flex-1 flex flex-col items-center justify-center gap-10 pl-6 lg:pl-20 mt-4">
           <img
-            src="/iphones.png"
+            src="/brisadesignweb/iphones.png"
             alt="Mockups de Instagram"
             className="w-[27rem] rotate-3 drop-shadow-lg"
           />
           <img
-            src="/cards.png"
+            src="/brisadesignweb/cards.png"
             alt="Cartão Brisa Design"
             className="w-[20rem] rotate-90 drop-shadow-lg"
           />

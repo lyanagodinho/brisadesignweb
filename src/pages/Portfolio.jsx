@@ -30,14 +30,14 @@ export default function Portfolio() {
 
   const projetos = {
     Brushed: [
-      ["/brushed1.png", "/brushed6.png"],
-      ["/brushed2.png", "/brushed3.png"],
-      ["/brushed4.png", "/brushed5.png"],
+      ["/brisadesignweb/brushed1.png", "/brisadesignweb/brushed6.png"],
+      ["/brisadesignweb/brushed2.png", "/brisadesignweb/brushed3.png"],
+      ["/brisadesignweb/brushed4.png", "/brisadesignweb/brushed5.png"],
     ],
     Dorado: [
-      ["/dorado5.png", "/dorado2.png"],
-      ["/dorado1.png", "/dorado3.png"],
-      ["/dorado4.png", "/dorado5.png"],
+      ["/brisadesignweb/dorado5.png", "/brisadesignweb/dorado2.png"],
+      ["/brisadesignweb/dorado1.png", "/brisadesignweb/dorado3.png"],
+      ["/brisadesignweb/dorado4.png", "/brisadesignweb/dorado5.png"],
     ],
   };
 
@@ -83,7 +83,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div> {/* <- esta div faltava ser fechada corretamente */}
+      </div> 
     </section>
   );
 }

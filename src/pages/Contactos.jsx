@@ -19,7 +19,7 @@ export default function Contactos() {
         {/* Formulário + Título imagem */}
         <div className="relative space-y-6">
           <img
-            src="/formstitle.svg"
+            src="/brisadesignweb/formstitle.svg"
             alt="Let's Work Together"
             className="w-full mb-6"
           />
