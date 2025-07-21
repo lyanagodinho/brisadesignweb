@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Mantenho este para evitar overflow horizontal do conteúdo */
+}
+
+body {
+  background-image: url('/bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+  overflow-x: hidden; /* Mantenho este para evitar overflow horizontal do conteúdo */
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('/bg-mobile.svg'); /* Troque para o nome da sua imagem mobile */
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@font-face {
+  font-family: 'Transforma';
+  src: url('/TransformaMix-SemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Todas as regras para ::-webkit-scrollbar foram removidas para usar o estilo padrão do navegador */
